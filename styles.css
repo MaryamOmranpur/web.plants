@@ -1,0 +1,26 @@
+#header{
+    background-color: rgb(45, 109, 45);
+    color: white;
+    height: 300px;
+}
+#title{
+    text-align: left;
+    font-size:1000%;
+    margin-top: 100px;
+    padding-top: 50px;
+}
+#search{
+    text-align: right;
+    size: 200%;
+    padding-right: 50px;
+}
+.nav-list{
+    display: flex;
+    justify-content: space-around;
+}
+#home{
+    text-decoration: none;
+    text-decoration-line: none;
+}
+
+}
