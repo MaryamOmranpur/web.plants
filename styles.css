@@ -1,25 +1,39 @@
 #header{
+    margin-bottom: 2rem;
+    padding: 2rem 1rem;
     background-color: rgb(45, 109, 45);
     color: white;
+    border-radius: 50px 12px;
     height: 300px;
 }
 #title{
     text-align: left;
     font-size:1000%;
-    margin-top: 100px;
-    padding-top: 50px;
+    margin-top: 50px;
+    padding: 50px;
+    display: inline;
 }
 #search{
     text-align: right;
     size: 200%;
+    margin-top: 50px;
     padding-right: 50px;
+    display: inline;
 }
 .nav-list{
     display: flex;
     justify-content: space-around;
+    font-size: xx-large;
 }
-<<<<<<< HEAD
-======
-
-
->>>>>>> 2dd89d226c9d73da3a157bd5b47fe2b4678559e2
+#home{
+    text-decoration: none;
+}
+#flowers{
+    text-decoration: none;
+}
+#test{
+    text-decoration: none;
+}
+#occassions{
+    text-decoration: none;
+}
