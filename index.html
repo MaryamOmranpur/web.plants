@@ -5,21 +5,83 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
     <div class="container">
+        <h1 class="title">GOLYAR</h1>
         <form action=""class="search-bar">
             <input type="text" placeholder="type to search" name="q">
             <button type="submit"><img src="https://cdn-icons-png.flaticon.com/128/5948/5948534.png" ></button>
         </form>
     </div>
-        
+
+
+<!--add a responsive menu-->
+<header>  
+  <script>
+    function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+  }
+  </script>
+  <div class="topnav" id="myTopnav">
+    <a href="#home" class="active">خانه</a>
+    <a href="#news">گل شخصیت</a>
+    <a href="#contact">گل ها</a>
+    <a href="#about">مناسبت ها</a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+</header>
+
+
+
+<main>
+  <div class="month">
+    <div class="container">
+      <img src="https://www.petalrepublic.com/wp-content/uploads/2021/07/The-Best-Plant-Delivery-Services-in-London.jpeg" id="birth-image">
+    </div>
+    <div id="birth-flower">
+      <p>!گل ماه تولدتو بشناس</p>
+    </div>
     
-    <div class="nav-list">
-            <a href="#" id="home">خانه</a>
-            <a href="#" id="flowers">گلها</a>
-            <a href="#" id="test">تست شخصیت شناسی</a>
-            <a href="#" id="occassions">مناسبتها</a>
-    </div>    
+  </div>
+  <br>
+</main>
+
+
+
+<footer> 
+  <h2 id="connect">ارتباط با ما</h2> 
+    <div class="wrapper">
+        <a href="#" class="icon facebook">
+          <div class="tooltip">Facebook</div>
+          <span><i class="fa fa-facebook-f"></i></span>
+        </a>
+        <a href="#" class="icon twitter">
+          <div class="tooltip">Twitter</div>
+          <span><i class="fa fa-twitter"></i></span>
+        </a>
+        <a href="#" class="icon instagram">
+          <div class="tooltip">Instagram</div>
+          <span><i class="fa fa-instagram"></i></span>
+        </a>
+        <a href="#" class="icon github">
+          <div class="tooltip">Github</div>
+          <span><i class="fa fa-github"></i></span>
+        </a>
+        <a href="#" class="icon telegram">
+            <div class="tooltip">Telegram</div>
+            <span><i class="fa fa-telegram"></i></span>
+        </a>
+      </div>
+</footer>          
 </body>
 </html>
